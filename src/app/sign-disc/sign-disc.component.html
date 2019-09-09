@@ -1,0 +1,38 @@
+<h4 style="margin-bottom: 30px">
+  Sign a Message
+</h4>
+<div class="row">
+  <label class="col-lg-2 right-align" for="privKey">
+    Private Key
+  </label>
+  <div class="col-lg-8">
+    <input id="privKey" type="{{privateKeyHidden ? 'password' : 'text'}}" class="form-control" placeholder="Input your private key" [(ngModel)]="privateKey">
+  </div>
+  <div class="col-lg-2">
+    <button class="btn btn-outline-primary" type="button" (click)="toggleHidePrivateKey()">{{privateKeyHidden ? 'Show' : 'Hide'}}</button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-2 right-align">
+    Address
+  </div>
+  <div class="col-8">
+    <input type="text" class="form-control" placeholder="Input your private key above" [ngModel]="address" readonly>
+  </div>
+</div>
+<div class="row">
+  <div class="col-2 right-align">
+    Message to sign
+  </div>
+  <div class="col-8">
+    <textarea rows="4" class="form-control" placeholder="Input your message to sign" [(ngModel)]="messageToSign"></textarea>
+  </div>
+</div>
+<div class="row">
+  <div class="col-2 right-align">
+    Signature
+  </div>
+  <div class="col-8">
+    <textarea type="text" class="form-control" placeholder="Your signature will appear here" [ngModel]="signature" readonly></textarea>
+  </div>
+</div>

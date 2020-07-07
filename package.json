@@ -26,7 +26,6 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@ng-bootstrap/ng-bootstrap": "^5.0.0",
-    "angular-cli-ghpages": "^0.6.0-rc.1",
     "bitcore-lib": "^8.6.0",
     "bitcoinjs-lib": "^5.1.6",
     "bitcoinjs-message": "^2.1.0",

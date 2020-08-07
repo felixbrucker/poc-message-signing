@@ -5,7 +5,7 @@ Foxy-Signing
 
 ## How to use
 
-- Open https://signing.foxypool.cf
+- Open https://signing.foxypool.io
 - Select the coin you want to sign for.
 - Enter your private key / passphrase and message to sign.
 - Profit
